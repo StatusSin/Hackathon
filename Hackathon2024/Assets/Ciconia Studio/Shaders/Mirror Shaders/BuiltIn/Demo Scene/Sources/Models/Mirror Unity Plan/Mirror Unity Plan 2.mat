@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mirror Unity Plan 2
+  m_Shader: {fileID: 4800000, guid: 2cf35e82d3cd21d47ac6c8bb62849e9d, type: 3}
+  m_ShaderKeywords: _ACTIVEBROKENMAP_ON _BLENDMAINNORMAL_ON _CONTRASSTSTYLE_SIMPLE
+    _DETAILSOURCE_METALLICALPHA _REMAP_ON _SOURCE_METALLICALPHA _TOGGLESWITCH0_ON
+    _USEAOFROMMAINPROPERTIES1_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BrokenBumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrokenMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrokenMapBcRAoGMBSA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrokenMapBcRNyGSBNxA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BrokenMapMaskA:
+        m_Texture: {fileID: 2800000, guid: c2430c5b18fd9514ab67d9b9d1344179, type: 3}
+        m_Scale: {x: 1.48, y: 0.82}
+        m_Offset: {x: -0.3, y: 0.31}
+    - _BrokenNormal:
+        m_Texture: {fileID: 2800000, guid: f7064edc73cd0a44dbbef2bd4626e878, type: 3}
+        m_Scale: {x: 1.48, y: 0.82}
+        m_Offset: {x: 0, y: 0.31}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 2800000, guid: b5813a2bc0f3b6e4e9fb45a0a66bce75, type: 3}
+        m_Scale: {x: 10, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 8c38d2e72ca280f4783343ec9c4418f7, type: 3}
+        m_Scale: {x: 2.74, y: 0.13}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 953eab576c42ff84bbf116175e0b6574, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: a4818f55b22c0894981f4006a2c10a4c, type: 3}
+        m_Scale: {x: 10, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ActiveBrokenmap: 1
+    - _AoIntensity: 0
+    - _AoIntensity1: 0
+    - _BlendMainNormal: 1
+    - _BlurReflection: 0.5
+    - _Brightness: 1
+    - _BrokenBrightness: 2.75
+    - _BrokenBumpScale: 0.85
+    - _BrokenBumpScale1: 1
+    - _BrokenMetallic: 0.907
+    - _BrokenRefractionScale: 0.08
+    - _BrokenSmoothness: 1
+    - _BrokenSpread: 0
+    - _Brokenstrength: 1
+    - _BumpScale: 0.3
+    - _ContrastDetailMap: 0
+    - _DetailBrightness: 1.54
+    - _DetailGlossiness: 1.071
+    - _DetailMetallic: 1.305
+    - _DetailNormalMapScale: 1
+    - _DetailSaturation: 0
+    - _DetailSource: 0
+    - _ExludeReflectionfromSaturationandBrightness: 0
+    - _ExludefromSaturationandBrightness: 0
+    - _Float0: 0
+    - _Float2: 0
+    - _Glossiness: 0.91
+    - _Intensity: 0.99
+    - _IntensityMask: 1
+    - _InvertABaseColor: 0
+    - _InvertMask: 0
+    - _InvertReflectionBlend: 0
+    - _Metallic: 0
+    - _OffsetX1: 0
+    - _OffsetY1: 0
+    - _ReflectionB: 1
+    - _ReflectionBlend: 0
+    - _ReflectionBlend1: 0
+    - _ReflectionIntensity: 0
+    - _RefractionScale: 0
+    - _Saturation: 0
+    - _Source: 0
+    - _SpreadDetailMap: 0.306
+    - _SwitchToPackedNormal: 0
+    - _TilingX1: 1
+    - _TilingY1: 1
+    - _ToggleSwitch0: 0
+    - _UseAoFromMainProperties: 1
+    - _UseAoFromMainProperties1: 1
+    - _VisualizeDirt: 0
+    - __dirty: 0
+    m_Colors:
+    - _BrokenColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorBroken: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorCubemap1: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
+    - _GlobalTODirt: {r: 1, g: 1, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXY: {r: 1, g: 1, b: 0, a: 0}

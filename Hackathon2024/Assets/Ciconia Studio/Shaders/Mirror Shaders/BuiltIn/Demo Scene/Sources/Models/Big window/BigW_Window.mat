@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BigW_Window
+  m_Shader: {fileID: 4800000, guid: 5e5eea6fd2976ef4cafd2a07f365f45a, type: 3}
+  m_ShaderKeywords: _ACTIVEDIRTMASKBW_ON _BLENDMAINNORMAL_ON _DETAILSOURCE_METALLICALPHA
+    _EMISSION _ENABLECUBEMAP_ON _GRABSCREENAXE_RGB _SCREENBLENDINGMODE_ON _SOURCE_METALLICALPHA
+    _USEAOFROMMAINPROPERTIES_ON _USEDIRTMAPASGLOSSMAP_ON _USEDIRTMAPASTRANSPARENCYMAP_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BrokenMapMaskA:
+        m_Texture: {fileID: 2800000, guid: c2430c5b18fd9514ab67d9b9d1344179, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0.37}
+    - _BrokenNormal:
+        m_Texture: {fileID: 2800000, guid: 66a4d6d3151d65740ac0af7ace795676, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0.37}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: ac9e6b46fbca2be489c7ed1c14a9ddd9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 6d78a6c9a26221442891cdaf932be22d, type: 3}
+        m_Scale: {x: 1, y: 3.5}
+        m_Offset: {x: 0, y: 1.03}
+    - _DetailMetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DirtMapBW:
+        m_Texture: {fileID: 2800000, guid: 846b017a06f30484bb44bd957f37158c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - __Cubemap:
+        m_Texture: {fileID: 8900000, guid: 97f6abb4cfa7a654fbe112ff3dca31f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - __Diffusemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - __NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - __Reflectionmask:
+        m_Texture: {fileID: 2800000, guid: 87db03816c0e6754fbb7bf08d7782cf4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - __SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ActiveBrokenmap: 0
+    - _ActiveDirtmaskBW: 1
+    - _AoIntensity: 0
+    - _BlendMainNormal: 1
+    - _BlendTransparency: 0
+    - _BlurReflection: 0
+    - _Brightness: 1
+    - _BrokenBrightness: 0
+    - _BrokenBumpScale: 0.5
+    - _BrokenMetallic: 1
+    - _BrokenRefractionScale: 0.86
+    - _BrokenSmoothness: 1
+    - _BumpScale: 1
+    - _ContrastDetailMap: 0
+    - _CubemapBlur: 0
+    - _CubemapEdges: 1
+    - _CubemapIntensity: 1
+    - _Cutoff: 0.5
+    - _DetailBrightness: 1
+    - _DetailGlossiness: 0.78
+    - _DetailMetallic: 0
+    - _DetailNormalMapScale: 1
+    - _DetailSaturation: 0
+    - _DetailSource: 0
+    - _DiffusetowhiteMirrorBrightness: 0
+    - _Divide: 1.25
+    - _DstBlend: 0
+    - _EnableCubemap: 1
+    - _ExludeReflectionfromSaturationandBrightness: 0
+    - _Float2: 2
+    - _FresnelStrength: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.88
+    - _GlossyReflections: 1
+    - _GrabscreenAxe: 0
+    - _Intensity: 0.5
+    - _IntensityMask: 0.3
+    - _InvertABaseColor: 0
+    - _InvertDirtMap: 0
+    - _InvertGrabscreen: 0
+    - _InvertMask: 0
+    - _InvertReflection: 0
+    - _InvertReflectionBlend: 0
+    - _InvertReflectionMask: 0
+    - _InvertTransparencyMask: 0
+    - _Keyword0: 0
+    - _MaskIntensity: 1
+    - _MaskSpread: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _ModeScreenOffOverlayOn: 0
+    - _NormalIntensity: 0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ReflectionBlend: 0
+    - _ReflectionIntensity: 0.25
+    - _Refraction1: 1
+    - _RefractionScale: 0
+    - _Saturation: 0
+    - _ScreenBlendingmode: 1
+    - _ScreenPos: 1
+    - _SmoothnessTextureChannel: 0
+    - _Source: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0.5
+    - _SpecularIntensity1: 0.035
+    - _SpreadDetailMap: 0.5
+    - _SrcBlend: 1
+    - _TindedGlass: 2
+    - _Transparency: 0.387
+    - _UVSec: 0
+    - _UseAoFromMainProperties: 1
+    - _UseDirtmapasGlossmap: 1
+    - _UseDirtmapasTransparencymap: 0.5
+    - _VisualizeDirt: 0
+    - _ZWrite: 1
+    - __Transparency: 0.361
+    - __dirty: 0
+    m_Colors:
+    - _BrokenColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorCubemap1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailColor: {r: 0.026788909, g: 0.5592759, b: 0.8113208, a: 1}
+    - _DirtTint: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GlobalTODirt: {r: 1, g: 1, b: 0, a: 0}
+    - _GlobalXYTilingXYZWOffsetXY: {r: 1, g: 1, b: 0, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
