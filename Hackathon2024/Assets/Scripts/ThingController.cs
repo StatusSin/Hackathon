@@ -13,10 +13,14 @@ public class ThingController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
+    public GameObject player;
+
+    private Animator animator;
 
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
+    private bool isMoving;
 
     [HideInInspector]
     public bool canMove = true;
@@ -28,6 +32,7 @@ public class ThingController : MonoBehaviour
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        animator = player.GetComponent<Animator>();
     }
 
     void Update()
@@ -50,6 +55,30 @@ public class ThingController : MonoBehaviour
         {
             moveDirection.y = movementDirectionY;
         }
+
+        if (moveDirection.y != 0 || moveDirection.x != 0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+
+        if (isMoving == true)
+        {
+            animator.Play("walking");
+            animator.speed = 1;
+            if (isRunning == true)
+            {
+                animator.speed = 2;
+            }
+        }
+        else
+        {
+            animator.Play("idle");
+        }
+
 
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
         // when the moveDirection is multiplied by deltaTime). This is because gravity should be applied
