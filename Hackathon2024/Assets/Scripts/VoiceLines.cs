@@ -18,8 +18,8 @@ public class VoiceLines : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(45);
-            randNum = UnityEngine.Random.Range(0, 10);
+            yield return new WaitForSeconds(15);
+            randNum = UnityEngine.Random.Range(0, 19);
             randVoiceLines[randNum].Play();
         }
     }
